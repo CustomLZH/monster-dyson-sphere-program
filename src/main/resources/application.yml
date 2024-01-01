@@ -14,7 +14,7 @@ spring:
     # 数据源名称
     name: defaultDataSource
     # 数据库连接地址
-    url: jdbc:mysql://localhost:3306/monster_security?serverTimezone=UTC&allowMultiQueries=true
+    url: jdbc:mysql://localhost:3306/monster_dyson_sphere_program?serverTimezone=UTC&allowMultiQueries=true
     # 数据库用户名&密码：
     username: root
     password: root
@@ -24,7 +24,6 @@ eureka:
     service-url:
       # eureka的地址信息（因为eureka也是一个微服务，也要注册到注册中心里）
       defaultZone: http://localhost:9801/eureka
-    enabled: false
   instance:
     prefer-ip-address: true
 
